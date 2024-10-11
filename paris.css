@@ -1,0 +1,70 @@
+
+.ParisPr{
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+}
+.Paristour h2{
+    margin: 30px 0 ;
+    display: flex;
+    padding: 0 0 0 100px;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+}
+.ParisPr p {
+    display: flex;
+    padding: 40px 0 0 0;
+}
+.info input{
+    display: inline-block;
+	width: 50%;
+	padding: 20px 30px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+    border: groove;
+    width: 600px;
+}
+.numES{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap :20px ;
+    width: 600px;
+}
+.subbtn{
+    background-color: rgb(107, 161, 179);
+    
+}
+.paymentM{
+    border: solid black;
+    margin: 15px 15px;
+    padding: 0 30px;
+}
+.payfor h2{
+    
+    padding-left: 30px;
+}
+.subca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+    margin-bottom: 30px;
+}
+.cancel{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.cancel:hover{
+    background-color: grey;
+}
+.font h2{
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.paymentM span{
+    font-family: 'Times New Roman', Times, serif ;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
